@@ -1,0 +1,31 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "tsc": "tsc",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Balr0op Thi4ra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.19.4",
+    "@types/express": "4.17.2",
+    "@types/express-serve-static-core": "4.17.20",
+    "@types/prettier": "2.6.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
